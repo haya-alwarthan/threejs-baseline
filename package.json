@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "parcel ./src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "dependencies": {
+    "events": "^3.3.0",
+    "three": "^0.145.0"
+  }
+}

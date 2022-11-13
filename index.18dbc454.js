@@ -34228,6 +34228,7 @@ class RayCaster extends (0, _eventsDefault.default) {
                 this.pointer.x = event.clientX / this.sizes.width * 2 - 1;
                 this.pointer.y = -(event.clientY / this.sizes.height) * 2 + 1;
                 if (!this.found && this.experience.counter > 3) this.render();
+                else if (his.experience.counter <= 3) this.emit("evade");
             }
         });
         window.addEventListener("mousemove", (event)=>{
